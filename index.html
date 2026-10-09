@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#eef0ed" />
+    <title>hong</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #eef0ed;
+        color: #18201d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: max(20px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+      }
+
+      main {
+        width: min(100%, 430px);
+        margin: 0 auto;
+      }
+
+      header {
+        margin-bottom: 18px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 6px 0 0;
+        color: #59635f;
+        font-size: 14px;
+      }
+
+      section + section {
+        margin-top: 24px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 15px;
+        line-height: 1.4;
+      }
+
+      a {
+        display: block;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgb(24 32 29 / 10%);
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>hong</h1>
+        <p>聊天记录移动端页面</p>
+      </header>
+
+      <section>
+        <h2>微信聊天详情页</h2>
+        <a href="./wechat-mobile-final.png" aria-label="查看微信聊天详情页原图">
+          <img
+            src="./wechat-mobile-final.png"
+            width="375"
+            height="844"
+            alt="微信聊天详情页截图"
+            fetchpriority="high"
+          />
+        </a>
+      </section>
+
+      <section>
+        <h2>聊天记录日期浏览页</h2>
+        <a href="./mobile-chat-preview.png" aria-label="查看聊天记录日期浏览页原图">
+          <img
+            src="./mobile-chat-preview.png"
+            width="390"
+            height="844"
+            alt="聊天记录日期浏览页截图"
+            loading="lazy"
+          />
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

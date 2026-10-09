@@ -1,6 +1,8 @@
 .DS_Store
 .compose-avatar-preview.swift
+.mobile-page-qa.mjs
 *.replaced.png
+mobile-page-qa.png
 wechat-mobile-avatar-preview.png
 avatar-hong-source.png
 avatar-gin-source.png
