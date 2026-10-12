@@ -1,4 +1,6 @@
 .DS_Store
+.wrangler/
+.secrets/
 .compose-avatar-preview.swift
 .mobile-page-qa.mjs
 *.replaced.png

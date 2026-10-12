@@ -310,6 +310,16 @@ mark.search-match { border-radius: .125rem; background: var(--color-search-mark)
     <span class="composer-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M7 12h10"/></svg></span>
   </div>
   <script>
+    if (location.origin === 'https://yxqhuqin222-star.github.io' && ['/hong/', '/hong/index.html'].includes(location.pathname)) {
+      fetch('https://hong-visit-log.yxqhuqin222.workers.dev/visit', {
+        method: 'POST',
+        credentials: 'omit',
+        keepalive: true
+      }).then((response) => {
+        if (!response.ok) console.warn('打开时间暂时无法记录。');
+      }).catch(() => console.warn('打开时间暂时无法记录。'));
+    }
+
     const viewer = document.querySelector('#image-viewer');
     const viewerImage = viewer.querySelector('img');
     const conversation = document.querySelector('.conversation');

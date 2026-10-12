@@ -1,0 +1,14 @@
+{
+  "name": "hong-visit-log",
+  "main": "worker/index.mjs",
+  "compatibility_date": "2026-07-15",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hong-visit-log-db",
+      "database_id": "0fae9a1b-75c8-476b-86d8-e88de73d7bea",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
